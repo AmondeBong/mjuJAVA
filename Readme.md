@@ -3,10 +3,10 @@
 ## 2주차
 
 '''JAVA
-  public class Java{
-    public static void main(String[] args){
-      
-      }
-  }
+    public class Java{
+      public static void main(String[] args){
+        
+        }
+    }
   
 '''
