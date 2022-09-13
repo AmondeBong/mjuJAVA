@@ -13,7 +13,7 @@ public class Mathclass {
 	public static void main(String[] args) {
 		
 		
-		int add,sub,mul,div,x,y;
+		int add,sub,mul,div,x,y; // int 만들기
 		
 		
 		x = (int)(Math.random()*100);
