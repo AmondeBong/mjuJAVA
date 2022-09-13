@@ -6,17 +6,17 @@
 
 
     package mjuJAVA;
-import java.util.Random; // Random 클래스 사용
+	import java.util.Random; // Random 클래스 사용
 
-/** *A short description of the program.
- * 
- * @author MinsuO
- * @assignment JAVAproject
- * @data 22.09.13
- **/
+	/** *A short description of the program.
+ 	* 
+ 	* @author MinsuO
+ 	* @assignment JAVAproject
+ 	* @data 22.09.13
+ 	**/
 
-public class Mathclass {
-	public static void main(String[] args) {
+	public class Mathclass {
+		public static void main(String[] args) {
 		
 		
 		int add,sub,mul,div,x,y; //
@@ -37,25 +37,25 @@ public class Mathclass {
 		System.out.println("x y 나머지 : "+div);
 		
 		
-	}
+		}
 	
 	public static int add(int x, int y) {
 		int sum = x+y;
 		return sum;
-	}
+		}
 	public static int sub(int x,int y) {
 		int sum = x-y;
 		return sum;
-	}
+		}
 	public static int mul(int x,int y) {
 		int sum = x*y;
 		return sum;
-	}
+		}
 	public static int div(int x,int y) {
 		int sum = x%y;
 		return sum;
-	}
+		}
 	
-}
+	}
   
 '''
