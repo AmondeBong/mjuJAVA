@@ -46,7 +46,7 @@ public class s60205210_Ominsu_lab2 {
 			}
 		
 	}
-	
+	 
 	
 	}
 	
