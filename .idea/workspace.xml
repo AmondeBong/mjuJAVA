@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a8a6059-fd67-43a3-ac89-da4b95035257" name="Changes" comment="" />
+    <list default="true" id="3a8a6059-fd67-43a3-ac89-da4b95035257" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mjuJAVA/ArrayTest3.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,9 +41,7 @@
     <configuration name="java" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <method v="2" />
     </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="mjuJAVA" />
@@ -70,6 +71,8 @@
       <workItem from="1663030190041" duration="211000" />
       <workItem from="1663033608287" duration="476000" />
       <workItem from="1663034090355" duration="429000" />
+      <workItem from="1664344620670" duration="85000" />
+      <workItem from="1664344736615" duration="16000" />
     </task>
     <servers />
   </component>
