@@ -1,6 +1,8 @@
+package mjuJAVA;
+
 /**
  * A short description of the program.
- * @author O minsu
+ * @author Ominsu
  * @ SID : 60205210
  * @assignment JAVA programming-4
  * @data 22.10.04
@@ -26,8 +28,8 @@ public class lab4{
 	
 	
 	
-	cham1.printout();
-	cham2.printout();
+	System.out.println(cham1);
+	System.out.println(cham2);
 	
 	
 	}

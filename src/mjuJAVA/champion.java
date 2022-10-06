@@ -1,3 +1,6 @@
+package mjuJAVA;
+
+
 public class champion{
 
 	private String name;
@@ -10,8 +13,8 @@ public class champion{
 	
 	}
 	
-	public void printout(){
-	 System.out.println("cham1의 이름: "+this.name+" power: "+this.power+" defense: "+this.defense);
+	public String toString(){
+	 return "champion의 이름: "+this.name+" power: "+this.power+" defense: "+this.defense;
 	
 	}
 
