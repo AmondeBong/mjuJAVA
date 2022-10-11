@@ -12,5 +12,7 @@ public class PizzaTest {
 		Pizza p3 = new Pizza("Super supreme");
 		int n = Pizza.count;
 		System.out.println("지금까지 만들어진 피자의 종류: "+n);
+		
+		
 	}
 }
