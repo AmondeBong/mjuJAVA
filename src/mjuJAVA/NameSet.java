@@ -10,9 +10,14 @@ public class NameSet{
     private String first_name;
     // 객체 마다 이름이 다르므로 인스턴트 변수로 선언
 
+    public NameSet(){
+        family_count++;
+        last_name = "Hong";
+    }
+    //생성자의 경우 맨 앞에 생성하는게 정석이다.
     public void setFirstName(String first){
             first_name = first;
-            System.out.println(family_count+" "+this.last_name+" "+this.first_name);
+            System.out.println(family_count+" "+last_name+" "+this.first_name);
     }
     public static void setLastName(String last){
             last_name = last;
@@ -20,7 +25,6 @@ public class NameSet{
     }
     
     //setter
-    
     public static String getLastName(){
             return last_name;
     }
@@ -28,13 +32,6 @@ public class NameSet{
     public String getFirstName(){
              return first_name;
     }
-
     // getter
     
-    public NameSet(){
-            family_count++;
-            last_name = "Hong";
-    }
-
-    //생성자의 경우 맨 앞에 생성하는게 정석이다.
 }

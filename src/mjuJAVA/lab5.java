@@ -8,10 +8,7 @@ public class lab5{
             NameSet F2 = new NameSet();
             F2.setFirstName("Soohee");
 
-
     }
-
-
 
 
 }
