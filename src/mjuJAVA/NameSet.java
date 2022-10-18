@@ -14,6 +14,11 @@ public class NameSet{
         family_count++;
         last_name = "Hong";
     }
+    public NameSet(String name) {
+    	family_count++;
+    	last_name = "Hong";
+    	first_name = name;
+    }
     //생성자의 경우 맨 앞에 생성하는게 정석이다.
     public void setFirstName(String first){
             first_name = first;
