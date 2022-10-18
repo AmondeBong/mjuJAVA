@@ -17,7 +17,7 @@ public class NameSet{
     //생성자의 경우 맨 앞에 생성하는게 정석이다.
     public void setFirstName(String first){
             first_name = first;
-            System.out.println(family_count+" "+last_name+" "+this.first_name);
+            
     }
     public static void setLastName(String last){
             last_name = last;
@@ -33,5 +33,10 @@ public class NameSet{
              return first_name;
     }
     // getter
+    public String toString(){
+        return family_count+" "+last_name+" "+first_name;
+
+
+    }
     
 }
