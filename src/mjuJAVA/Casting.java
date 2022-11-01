@@ -9,7 +9,7 @@ class Parent{
 class Child extends Parent{
 	
 	public Child() {
-		System.out.println("make Child");
+		System.out.println("make Child class");
 	}
 	@Override
 	void print() {
