@@ -3,12 +3,12 @@ package mjuJAVA;
  * @SID : 60205210
  * @author O minsu
  * @assignment JAVA Programming - 6
- * @data 20221030
+ * @data 20221101
  */
 
 class Bicycle{
-	private int Gear;
-	private int speed;
+	protected int Gear;
+	protected int speed;
 	
 	public Bicycle(){
 		Gear = 0;
@@ -55,7 +55,7 @@ class Bicycle{
 	
 }
 public class MountainBike extends Bicycle {
-	private int seatHeight;
+	protected int seatHeight;
 	
 	public MountainBike(int startHeight,int startSpeed,int startGear) {
 		super(startGear,startSpeed);

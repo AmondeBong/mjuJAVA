@@ -1,7 +1,7 @@
 package mjuJAVA;
 class Person{
-	private int SID,weight;
-	public String name;
+	protected int SID,weight;
+	protected String name;
 	protected String tel;
 	
 	public Person() {
