@@ -21,7 +21,7 @@ class Child extends Parent{
 }
 public class Casting {
 	public static void main(String[] args) {
-		Parent p = new Child();
+		Parent p = new Child(); 
 		p.print();
 		System.out.println();
 		

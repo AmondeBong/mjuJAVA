@@ -7,7 +7,7 @@ package mjuJAVA;
  */
 public class lab6 {
 	public static void main(String[] args) {
-		MountainBike mb = new MountainBike(10,10,2);
+		MountainBike mb = new MountainBike(10,2,10);
 		
 		for(int i=0;i<3;i++) {
 			mb.plusSpeed(5);

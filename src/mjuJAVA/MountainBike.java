@@ -2,8 +2,8 @@ package mjuJAVA;
 /** A short description of the program
  * @SID : 60205210
  * @author O minsu
- * @assignment JAVA Programming - 6
- * @data 20221101
+ * @assignment JAVA Programming - 7
+ * @data 20221103
  */
 
 class Bicycle{
@@ -15,7 +15,7 @@ class Bicycle{
 		speed = 0;
 	}
 	
-	public Bicycle(int Gear, int speed){
+	public Bicycle(int speed, int Gear){
 		this.Gear = Gear;
 		this.speed = speed;
 	}
@@ -54,16 +54,26 @@ class Bicycle{
 	
 	
 }
+
 public class MountainBike extends Bicycle {
-	protected int seatHeight;
+	private int seatHeight;
 	
-	public MountainBike(int startHeight,int startSpeed,int startGear) {
-		super(startGear,startSpeed);
+	public MountainBike(int startSpeed,int startGear,int startHeight) {
+		super(startSpeed,startGear);
 		this.seatHeight = startHeight;
 	}
 	
 	public void setSeatHeight(int seatHeight) {
 		this.seatHeight = seatHeight;
+	}
+	
+	@Override
+	public int plusSpeed(int percent) {
+		return speed += speed*percent/100;
+	}
+	@Override
+	public int subSpeed(int percent) {
+		return speed = speed - (speed*percent/100);
 	}
 	
 	public int getSeatHeight() {
@@ -76,4 +86,59 @@ public class MountainBike extends Bicycle {
 	
 }
 
+class ElectricalBike extends Bicycle{
+	private int battery;
+	public ElectricalBike(int speed,int gear,int battery) {
+		super.speed = speed;
+		super.Gear = gear;
+		this.battery = battery;
+	}
+	
+	public void setBattery(int min) {
+		this.battery = 5*min;
+	}
+	
+	public int getBattery() {
+		return this.battery;
+	}
+	
+	@Override
+	public int plusSpeed(int percent) {
+		return speed += battery*percent/100;
+	}
+	
+	@Override
+	public int subSpeed(int percent) {
+		return speed = speed - (battery*percent/100);
+	}
+	
+	public String toString() {
+		return "속도 : "+getSpeed()+", 기어: "+getGear()+", 배터리: "+getBattery();
+	}
+	
+}
 
+class Cycle extends Bicycle{
+	private boolean isbasket;
+	
+	public Cycle(int speed,int gear,boolean isbasket) {
+		super.speed = speed;
+		super.Gear = gear;
+		this.isbasket = isbasket;
+	}
+	
+	@Override
+	public int plusSpeed(int percent) {
+		return speed += 10+(speed*percent/100);
+	}
+	
+	public int subSpeed(int percent) {
+		return speed = speed - (10+(speed*percent/100));
+	}
+	public boolean getIsbasket() {
+		return this.isbasket;
+	}
+	public String toString() {
+		return "속도 : "+getSpeed()+", 기어: "+getGear()+", 바스켓 유무: "+getIsbasket();
+	}
+}
