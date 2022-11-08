@@ -7,7 +7,7 @@ package bicycle;
  * @data 20221103
  */
 
-public class Bicycle{
+public abstract class Bicycle{
 	protected int Gear;
 	protected int speed;
 	
@@ -37,13 +37,9 @@ public class Bicycle{
 		return Gear;
 	}
 	
-	public int plusSpeed(int value) {
-		return this.speed += value;
-	}
-	
-	public int subSpeed(int value) {
-		return this.speed -= value;
-	}
+	public abstract int plusSpeed(int percent);
+		
+	public abstract int subSpeed(int percent);
 	
 	public int plusGear(int value) {
 		return this.Gear += value;
@@ -52,6 +48,8 @@ public class Bicycle{
 	public int subGear(int value) {
 		return this.Gear -= value;
 	}
+
+	
 	
 	
 }

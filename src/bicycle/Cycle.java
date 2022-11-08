@@ -19,7 +19,7 @@ public class Cycle extends Bicycle{
 	public int plusSpeed(int percent) {
 		return speed += 10+(speed*percent/100);
 	}
-	
+	@Override
 	public int subSpeed(int percent) {
 		return speed = speed - (10+(speed*percent/100));
 	}
