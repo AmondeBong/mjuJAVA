@@ -4,7 +4,7 @@ package bicycle;
  * @SID : 60205210
  * @author MinsuO
  * @assignment JAVA Programming - 7
- * @data 20221103
+ * @data 20221108
  */
 
 
