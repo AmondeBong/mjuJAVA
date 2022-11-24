@@ -27,7 +27,7 @@ public class Lab9 {
 		Double k = Double.valueOf(c);
 		Double g = Double.valueOf(d);
 		
-		if(i.compareTo(k.intValue()) ==  0) {
+		if(i.compareTo(j) == 0) {
 			System.out.println("둘은 같습니다.");
 		} else {
 			System.out.println("다릅니다.");
