@@ -108,7 +108,7 @@ class Triangle extends Shape{
 public class lab8 {
 	public static void main(String[] args) {
 		Shape [] arrayOfShapes = new Shape[3];
-		arrayOfShapes[0] = new Circle(10,10,20);
+		arrayOfShapes[0] = new Circle(10,10,10);
 		arrayOfShapes[1] = new Rectangle(5,5,10,20);
 		arrayOfShapes[2] = new Triangle(15,15,10,20);
 		
